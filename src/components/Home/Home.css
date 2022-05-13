@@ -1,0 +1,17 @@
+.testUno {
+    width: 155px;
+    height: 193px;
+    position: relative;
+
+}
+.testUno::before {
+    content: '';
+    position: absolute;
+    width: 155px;
+    height: 193px;
+    top: 7px;
+    left: 7px;
+    background-color: #6D21B9;
+    border-radius: 4px;
+    z-index: -1;
+}
